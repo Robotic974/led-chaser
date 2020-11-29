@@ -51,7 +51,7 @@ uint8_t counter = 0;
  */
 void ledWrite(uint8_t n) {
 
-    // On parcoure, un à un, chaque bit qui compose le codage binaire
+    // On parcourt, un à un, chaque bit qui compose le codage binaire
     // de l'entier que l'on souhaite afficher. Cela revient finalement
     // à parcourir chaque LED de la rampe :
     for (uint8_t i=0; i<NUM_LEDS; i++) {

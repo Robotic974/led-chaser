@@ -57,7 +57,7 @@ Chaque exercice proposé correspond à un programme Arduino indépendant des aut
 
 - Le projet comporte un seul et unique programme principal `src/main.cpp` qui est chargé d'incorporer un et un seul fichier d'en-tête à la fois, correspondant à la solution de l'exercice qu'on souhaite compiler et téléverser sur la carte Arduino. Chaque fichier solution est incorporé par une directive de précompilation de type `#include`. Par conséquent, pour un exercice donné, il faudra désactiver l'incorporation des fichiers solutions des autres exercices en commentant les lignes correspondantes.
 
-Chaque fichier d'en-tête est spécifique et indépendant des autres, et vous ne pouvez en compiler qu'un seul à la fois.
+Chaque fichier solution est spécifique et indépendant des autres. Vous ne pouvez en compiler qu'un seul à la fois.
 
 
 **Bon code !**
