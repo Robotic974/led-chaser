@@ -25,4 +25,5 @@
 // #include "02-one-way-scanning.h"
 // #include "03-two-way-scanning.h"
 // #include "04-revised-blink.h"
-#include "05-binary-counter.h"
+// #include "05-binary-counter.h"
+#include "06-simple-animation.h"
